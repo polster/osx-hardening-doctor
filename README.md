@@ -18,3 +18,4 @@ Although the OSX Hardening Doctor may require sudo, the verified system will not
 
 ## Hardening Checks
 
+See [checks](checks.yml)
