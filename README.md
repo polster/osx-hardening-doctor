@@ -5,7 +5,9 @@ This tool runs a collection of pre-defined security checks against your system p
 
 Although the OSX Hardening Doctor may require sudo, the verified system will not be touched.
 
-## Usage
+## Ops
+
+### Usage
 
 * Basic usage:
 ```
@@ -16,6 +18,20 @@ Although the OSX Hardening Doctor may require sudo, the verified system will not
 ./ohd --help
 ```
 
-## Hardening Checks
+### Hardening Checks
 
 See [checks](checks.yml)
+
+## Dev
+
+### How to build
+
+* Checkout the project and cd into the project folder
+* Set the GO path:
+```
+export GOPATH=$HOME/Src/Git/osx-hardening-doctor 
+```
+* Build and install:
+```
+go install github.com/polster/ohd
+```
